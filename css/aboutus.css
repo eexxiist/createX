@@ -1,0 +1,740 @@
+/* -------------------- */
+
+.history, .partner-about{
+  padding-bottom: 100px;
+}
+
+.about-plus{
+  padding-bottom: 200px;
+}
+
+/* ------------------------- */
+
+.contain_wrapper{
+  width: 50%;
+}
+
+.about__title {
+  margin-top: 110px;
+  width: 100%;
+  padding-bottom: 100px;
+  background-image: url("../images/background-about.png");
+  background-size: cover;
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+}
+
+.about-plus {
+  padding-bottom: 200px;
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+}
+
+.about-plus-icon {
+  margin: 0 auto;
+  padding-top: 189px;
+}
+
+.about-plus-icon ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  list-style-type: none;
+}
+
+.about-plus-icon li + li {
+  padding-left: 86px;
+}
+
+.about-number {
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 130%;
+  text-align: center;
+  color: #ff5a30;
+}
+
+.about-icon-text {
+  padding-top: 8px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  text-align: center;
+  color: #1e212c;
+}
+
+.about-icon-1 {
+  position: relative;
+}
+
+.about-icon-1:after {
+  position: absolute;
+  top: -60px;
+  left: 80px;
+  content: "";
+  width: 48px;
+  height: 48px;
+  background-image: url("../images/about-icon-1.svg");
+  background-size: cover;
+}
+
+.about-icon-2 {
+  position: relative;
+}
+
+.about-icon-2:after {
+  position: absolute;
+  top: -60px;
+  left: 135px;
+  content: "";
+  width: 48px;
+  height: 48px;
+  background-image: url("../images/about-icon-2.svg");
+  background-size: cover;
+}
+
+.about-icon-3 {
+  position: relative;
+}
+
+.about-icon-3:after {
+  position: absolute;
+  top: -60px;
+  left: 130px;
+  content: "";
+  width: 48px;
+  height: 48px;
+  background-image: url("../images/about-icon-3.svg");
+  background-size: cover;
+}
+
+.about-icon-4 {
+  position: relative;
+}
+
+.about-icon-4:after {
+  position: absolute;
+  top: -60px;
+  left: 190px;
+  content: "";
+  width: 48px;
+  height: 48px;
+  background-image: url("../images/about-icon-4.svg");
+  background-size: cover;
+}
+
+.about-man {
+  display: flex;
+  margin: 0 auto;
+  width: 1230px;
+  /* height: 700px; */
+}
+
+.man-photo {
+  margin-top: 240px;
+  width: 525px;
+  height: 580px;
+  background-image: url("../images/about-man.png");
+  background-size: cover;
+}
+
+.man-title {
+  padding-top: 120px;
+  margin-left: -30px;
+  width: 735px;
+  height: 570px;
+  box-shadow: 0px 80px 80px -20px rgba(154, 156, 165, 0.08),
+    0px 30px 24px -10px rgba(154, 156, 165, 0.05),
+    0px 12px 10px -6px rgba(154, 156, 165, 0.04),
+    0px 4px 4px -4px rgba(30, 33, 44, 0.03);
+  border-radius: 4px;
+}
+
+.man-title blockquote {
+  display: block;
+  width: 735px;
+  height: 570px;
+  text-align: left;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.man-title-text-1 {
+  position: relative;
+  padding-top: 60px;
+  padding-left: 135px;
+  width: 600px;
+  height: 250px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 150%;
+  color: #1e212c;
+}
+
+.man-title-text-2 {
+  padding-top: 30px;
+  padding-left: 135px;
+  width: 600px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 150%;
+  color: #1e212c;
+}
+
+.man-title-text-1:after {
+  position: absolute;
+  top: 80px;
+  left: 95px;
+  content: "";
+  width: 10px;
+  height: 20px;
+  background-image: url("../images/quote.svg");
+  background-size: cover;
+}
+
+.man-title-text-1:before {
+  position: absolute;
+  top: 80px;
+  left: 77px;
+  content: "";
+  width: 10px;
+  height: 20px;
+  background-image: url("../images/quote.svg");
+  background-size: cover;
+}
+
+.man-name {
+  position: relative;
+  padding-top: 80px;
+  padding-left: 135px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 160%;
+  color: #1e212c;
+}
+
+.man-name:after {
+  position: absolute;
+  top: 70px;
+  left: 470px;
+  content: "";
+  width: 98px;
+  height: 68px;
+  background-image: url("../images/about-sign.png");
+  background-size: cover;
+}
+
+.man-ceo {
+  padding-top: 4px;
+  padding-left: 135px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #787a80;
+}
+
+.history {
+  background-color: #f4f5f6;
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+}
+
+.title-values{
+  padding-top: 60px;
+}
+
+.vector-wrapper {
+  padding-top: 130px;
+  padding-left: 450px;
+}
+
+.history-title {
+  margin: 0 auto;
+  padding-top: 60px;
+  width: 1230px;
+}
+
+.history-month {
+  border-left: 2px solid #9a9ca5;
+}
+
+.history-month ul {
+  padding: 0;
+  padding-left: 32px;
+  width: 249px;
+
+  list-style-type: none;
+}
+
+.history-month li + li {
+  padding-top: 20px;
+}
+
+.history-month a {
+  position: relative;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 150%;
+  color: #9a9ca5;
+  text-decoration: none;
+}
+
+.history-month a::before {
+  position: absolute;
+  display: block;
+  top: 40%;
+  left: -40px;
+  content: "";
+  width: 14px;
+  height: 14px;
+  background-color: #9a9ca5;
+  border: 3px solid #f4f5f6;
+  border-radius: 50%;
+}
+
+.history-month a:hover {
+  color: #ff5a30;
+  transition: all 0.5s ease-in;
+}
+
+.history-month a:hover::before {
+  background-color: #ff5a30;
+}
+
+.history-image-wrapper {
+  padding-left: 171px;
+  width: 810px;
+}
+
+.history-image {
+  width: 810px;
+  height: 450px;
+  background-image: url("../images/history-image.png");
+  background-size: cover;
+}
+
+.history-image-wrapper p {
+  padding-top: 36px;
+  width: 810px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #424551;
+}
+
+/* ------------------- */
+
+.partner-about {
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+}
+
+.title-partners{
+  padding-top: 50px;
+  padding-bottom: 39px;
+}
+
+
+/* --------------------- */
+.team__top{
+  padding-top: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.team__bottom{
+  display: flex;
+  justify-content: space-between;
+}
+
+.item {
+  width: 285px;
+  height: 416px;
+  background: white;
+  border-radius: 4px;
+  border-radius: 4px;
+  transition: all 0.6s ease-in-out;
+}
+
+.item:hover {
+  transform: scale(1.1);
+}
+
+.about-image-1 {
+  width: 285px;
+  height: 340px;
+  background-image: url("../images/team-1.png");
+}
+.about-image-2 {
+  width: 285px;
+  height: 340px;
+  background-image: url("../images/team-2.png");
+}
+.about-image-3 {
+  width: 285px;
+  height: 340px;
+  background-image: url("../images/team-3.png");
+}
+.about-image-4 {
+  width: 285px;
+  height: 340px;
+  background-image: url("../images/team-4.png");
+}
+.about-image-5 {
+  width: 285px;
+  height: 340px;
+  background-image: url("../images/team-5.png");
+}
+.about-image-6 {
+  width: 285px;
+  height: 340px;
+  background-image: url("../images/team-6.png");
+}
+.about-image-7 {
+  width: 285px;
+  height: 340px;
+  background-image: url("../images/team-7.png");
+}
+.about-image-8 {
+  width: 285px;
+  height: 340px;
+  background-image: url("../images/team-8.png");
+}
+
+
+.about-link {
+  position: absolute;
+  left: 0;
+  top: 280px;
+  right: 0;
+  bottom: 0;
+  width: 285px;
+  height: 60px;
+  background: #ff5a30;
+  opacity: 0;
+  text-align: center;
+  border-radius: 0px 0px 4px 4px;
+  transition: all 0.6s ease-in-out;
+}
+
+.item:hover .about-link {
+  opacity: 0.7;
+}
+
+.in {
+  display: block;
+  width: 19px;
+  height: 19px;
+  margin-top: 21px;
+  margin-left: 102px;
+  content: "";
+  background-image: url("../images/in.svg");
+  background-size: cover;
+  transition: all 0.6s ease-in-out;
+}
+
+.twitter {
+  display: block;
+  width: 19px;
+  height: 19px;
+  margin-top: 23px;
+  margin-left: 15px;
+  content: "";
+  background-image: url("../images/twitter.svg");
+  background-size: 19px 19px;
+  transition: all 0.6s ease-in-out;
+}
+
+.facebook {
+  display: block;
+  width: 19px;
+  height: 19px;
+  margin-top: 21px;
+  margin-left: 15px;
+  content: "";
+  background-image: url("../images/facebook.svg");
+  background-size: 19px 19px;
+  transition: all 0.6s ease-in-out;
+}
+
+.post-team {
+  margin: 0 auto;
+ 
+}
+
+.post-team p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #1e212c;
+}
+
+.post-team a {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #ff5a30;
+  transition: all 0.6s ease-in-out;
+}
+
+.map {
+  margin: 0;
+  width: 100%;
+  height: 883px;
+  background-color: #f4f5f7;
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  padding-top: 200px;
+}
+
+.map-wrapper {
+  position: relative;
+  margin: 0 auto;
+  width: 1230px;
+  height: 563px;
+  background-image: url("../images/map.svg");
+  background-size: cover;
+}
+
+.canada {
+  position: absolute;
+  display: block;
+  left: 0;
+  top: 0;
+  right: 880px;
+  bottom: 300px;
+  margin: auto;
+  width: 40px;
+  height: 40px;
+  background-image: url("../images/canada.svg");
+  background-size: cover;
+}
+.usa {
+  position: absolute;
+  display: block;
+  left: 0;
+  top: 0;
+  right: 750px;
+  bottom: 100px;
+  margin: auto;
+  width: 40px;
+  height: 40px;
+  background-image: url("../images/usa.svg");
+  background-size: cover;
+}
+.germany {
+  position: absolute;
+  display: block;
+  left: 10px;
+  top: 0;
+  right: 0px;
+  bottom: 200px;
+  margin: auto;
+  width: 40px;
+  height: 40px;
+  background-image: url("../images/germany.svg");
+  background-size: cover;
+}
+.ukraine {
+  position: absolute;
+  display: block;
+  left: 130px;
+  top: 0;
+  right: 0px;
+  bottom: 180px;
+  margin: auto;
+  width: 40px;
+  height: 40px;
+  background-image: url("../images/ukraine.svg");
+  background-size: cover;
+}
+.china {
+  position: absolute;
+  display: block;
+  left: 650px;
+  top: 0;
+  right: 0px;
+  bottom: 50px;
+  margin: auto;
+  width: 40px;
+  height: 40px;
+  background-image: url("../images/china.svg");
+  background-size: cover;
+}
+.australia {
+  position: absolute;
+  display: block;
+  left: 850px;
+  top: 330px;
+  right: 0px;
+  bottom: 0px;
+  margin: auto;
+  width: 40px;
+  height: 40px;
+  background-image: url("../images/australia.svg");
+  background-size: cover;
+}
+
+@media (max-width: 770px){
+
+  .history{
+    padding-bottom: 50px;
+  }
+
+  .contain_wrapper{
+    margin: 0;
+    width: 95%;
+  }
+
+  .about__title{
+    margin-top: 20px;
+    padding-bottom: 50px;
+  }
+  .hero a{
+    padding: 0;
+  }
+
+  /* -------- */
+
+  .about-plus{
+    /* height: 2000px; */
+  }
+
+  .about-plus-icon{
+    padding-top: 20px;
+  }
+
+  .about-plus-icon ul{
+    flex-direction: column;
+  }
+  
+  .about-plus-icon li + li {
+    padding-left: 0;
+    padding-top: 30px;
+  }
+
+  .about-icon-1:after{
+    top: 0;
+    left: 45%;
+  }
+
+  .about-icon-2:after,.about-icon-3:after, .about-icon-4:after{
+    top: 15%;
+    left: 45%;
+  }
+
+  .about-number{
+    padding-top: 60px;
+    font-size: 26px;
+  }
+
+  .about-plus-icon{
+    padding-bottom: 50px;
+  }
+
+  .title-values{
+    padding-top: 0;
+  }
+
+  .about-man{
+    flex-direction: column;
+  }
+
+  .man-photo{
+    margin-top: 0;
+    width: 90vw;
+    height: 40vh;
+    background-size: contain;
+  }
+
+  .man-title blockquote{
+    width: 90vw;
+    /* height: 70vh; */
+  }
+
+  .man-title{
+    padding-top: 20px;
+    margin-left: 0;
+    padding-bottom: 100px;
+    height: 67vh;
+  }
+
+  .man-title-text-1{
+    font-size: 16px;
+    width: 90%;
+    padding-top: 0;
+    padding-left: 60px;
+    padding-bottom: 50px;
+  }
+
+  .man-title-text-2{
+    font-size: 16px;
+    width: 90%;
+    padding-top: 50px;
+    padding-left: 60px;
+  }
+
+  .man-title-text-1:after{
+    top: 0;
+    left: 5%;
+  }
+
+  .man-title-text-1:before{
+    top: 0;
+    left: 10%;
+  }
+
+  .man-name{
+    padding-left: 60px;
+    padding-top: 20px;
+  }
+
+  .man-ceo{
+    padding-left: 60px;
+  }
+
+  /* --------- */
+
+ .building-title{
+  display: none !important;
+ }
+
+ .history-title{
+  display: none !important;
+ }
+
+ .team__top{
+  padding-top: 30px;
+  align-items: center;
+  flex-direction: column;
+ }
+
+ .team__bottom{
+  align-items: center;
+  flex-direction: column;
+ }
+
+ .item{
+  width: 90vw;
+  height: 48vh;
+ }
+
+ .about-image-1,.about-image-2, .about-image-3, .about-image-4,.about-image-5, .about-image-6, .about-image-7, .about-image-8{
+  align-items: center;
+  width: 100vw;
+  height: 35vh;
+  background-size: contain;
+ }
+
+ .post-team{
+  flex-direction: column;
+ }
+
+ .post-team p, .post-team a{
+  text-align: center;
+ }
+
+ .map{
+  display: none;
+ }
+}

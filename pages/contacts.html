@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Mulish:ital,wght@0,600;1,400&family=Poppins:wght@400;600&family=Rubik:wght@300&family=Ubuntu:wght@500&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Contacts</title>
+
+    <link href="/css/contacts.css" rel="stylesheet" type="text/css" />
+    <link href="/css/common.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="wrapper">
+          <div class="header__navigation" id="navigation">
+            <div class="header__logo"></div>
+            <nav class="nav-container">
+                <ul class="header__menu">
+                  <li><a href="../pages/aboutus.html">About Us</a></li>
+                  <li><a href="../pages/services.html">Services</a></li>
+                  <li><a href="../pages/work.html">Work</a></li>
+                  <li><a href="../pages/news.html">News</a></li>
+                  <li><a href="../pages/contacts.html">Contacts</a></li>
+                </ul>
+                <div class="header__humburger">
+                    <span></span>
+                </div>
+            </nav>
+            <div class="link-head row">
+              <div class="menu-call">
+                <ul>
+                  <li><p class="menu-title">Call us</p></li>
+                  <li>
+                    <a href="tel:(405) 555-0128" class="menu-text"
+                      >(405) 555-0128</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="menu-talk">
+                <ul class="menu-talk">
+                  <li><p class="menu-title">Talk to us</p></li>
+                  <li>
+                    <a
+                      href="mailto:hello@createx.com?subject=Contact to CreatX"
+                      class="menu-text"
+                      >hello@createx.com</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+      </div>
+  </header>
+    <main class="main">
+
+      <div class="head-title">
+        <div class="hero row">
+          <a href="../index.html"> <span>Homepage</span> / Contacts </a>
+        </div>
+        <div class="hero-title">
+          <ul>
+            <li><h1>CONTACTS</h1></li>
+            <li>
+              <p>
+                Contact us for all your construction needs. We always welcome
+                any questions and comments.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <section class="contactus">
+        <div class="contact-wrapper">
+          <div class="video-title">
+            <h3 class="common-title">Contact us</h3>
+            <p class="common-text">
+              Please complete the form. Detailed information will help us to
+              make a tuned offer.
+            </p>
+          </div>
+          <div class="contact-title row">
+            <div class="contact-image"></div>
+            <div class="contact-form">
+              <div class="forms-title name">
+                <ul class="row">
+                  <li><p class="form-contacts">Name*</p></li>
+                  <li>
+                    <p class="form-contacts">I am interested in</p>
+                  </li>
+                </ul>
+              </div>
+              <form
+                class="item-form form-services-long"
+                action="/action_page.php"
+                method="post"
+              >
+                <input
+                  class="form-service"
+                  type="text"
+                  placeholder="Your name"
+                />
+                <div class="design-wrapper">
+                  <button class="interior-button">Interior Design</button>
+                  <div class="interior-content">
+                    <a href="#">Home</a>
+                    <a href="#">Build</a>
+                    <a href="#">Office</a>
+                  </div>
+                </div>
+              </form>
+              <div class="forms-title phone">
+                <ul class="row">
+                  <li><p class="form-contacts">Phone*</p></li>
+                  <li>
+                    <p class="form-contacts">Location*</p>
+                  </li>
+                </ul>
+              </div>
+              <form
+                class="item-form form-contact-long"
+                action="/action_page.php"
+                method="post"
+              >
+                <input
+                  class="form-service"
+                  type="tel"
+                  placeholder="Your phone number"
+                />
+                <div class="design-wrapper">
+                  <button class="interior-button">New York</button>
+                  <div class="interior-content">
+                    <a href="#">New Jersey</a>
+                    <a href="#">San Francisco</a>
+                  </div>
+                </div>
+              </form>
+              <div class="forms-title email">
+                <ul class="row">
+                  <li><p class="form-contacts">Email</p></li>
+                  <li>
+                    <p class="form-contacts">Preferred contact method</p>
+                  </li>
+                </ul>
+              </div>
+              <form
+                class="item-form form-social-long"
+                action="/action_page.php"
+                method="post"
+              >
+                <input
+                  class="form-service"
+                  type="text"
+                  placeholder="Your working email"
+                />
+                <input
+                  class="check phone-check"
+                  type="checkbox"
+                  id="contact_1"
+                  name="subribe"
+                  value="phone"
+                />
+                <label for="contact_1">Phone</label>
+                <input
+                  class="check email-check"
+                  type="checkbox"
+                  id="contact_2"
+                  name="subribe"
+                  value="email"
+                />
+                <label for="contact_1">Email</label>
+                <input
+                  class="check viber-check"
+                  type="checkbox"
+                  id="contact_3"
+                  name="subribe"
+                  value="viber"
+                />
+                <label for="contact_1">Viber</label>
+              </form>
+              <form
+                class="item-message form-message-long"
+                action="/action_page.php"
+                method="post"
+              >
+                <p class="form-contacts">Message*</p>
+                <textarea name="textarea" placeholder="Your message"></textarea>
+                <input
+                  class="checkbox-contact"
+                  type="checkbox"
+                  id="contact_2"
+                  name="subribe"
+                  value="newsletter"
+                />
+                <label for="contact_2"
+                  >I agree to receive communications from Createx
+                  ConstructionBureau.</label
+                >
+                <input
+                  class="submit-contact"
+                  type="submit"
+                  value="send request"
+                />
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="office">
+        <div class="office-wrapper">
+          <div class="video-title">
+            <h3 class="common-title">Our offices</h3>
+            <p class="common-text">
+              Give us a call, send us a note or visit our office. We can’t wait
+              to hear from you!
+            </p>
+          </div>
+          <div class="contact-location row">
+            <ul>
+              <li><h3>New York, USA</h3></li>
+              <li>
+                <p class="adress">8502 Preston Rd. Inglewood, New York 98380</p>
+              </li>
+              <li><a href="#" class="map">See on the map</a></li>
+              <li>
+                <span>Call:</span
+                ><a href="tel:(405) 555-0128<" class="link">(405) 555-0128</a>
+              </li>
+              <li>
+                <span>Email:</span
+                ><a
+                  href="mailto:hello@createx.com?subject=Contact to CreatX"
+                  class="link"
+                  >hello@createx.com</a
+                >
+              </li>
+              <li class="row">
+                <span>Schedule:</span>
+                <p class="schedule">Mon - Fri 9:00 - 18:00</p>
+              </li>
+            </ul>
+            <ul>
+              <li><h3>New Jersey, USA</h3></li>
+              <li>
+                <p class="adress">2464 Royal Ln. Mesa, New Jersey 45463</p>
+              </li>
+              <li><a href="#" class="map">See on the map</a></li>
+              <li>
+                <span>Call:</span
+                ><a href="tel:(808) 555-0111<" class="link">(808) 555-0111</a>
+              </li>
+              <li>
+                <span>Email:</span
+                ><a
+                  href="mailto:hello@createx.com?subject=Contact to CreatX"
+                  class="link"
+                  >hello@createx.com</a
+                >
+              </li>
+              <li class="row">
+                <span>Schedule:</span>
+                <p class="schedule">Mon - Fri 9:00 - 18:00</p>
+              </li>
+            </ul>
+            <ul>
+              <li><h3>San Francisco, USA</h3></li>
+              <li>
+                <p class="adress">
+                  8502 Preston Rd. Inglewood, San Francisco 98380
+                </p>
+              </li>
+              <li><a href="#" class="map">See on the map</a></li>
+              <li>
+                <span>Call:</span
+                ><a href="tel:(505) 555-0125" class="link">(505) 555-0125</a>
+              </li>
+              <li>
+                <span>Email:</span
+                ><a
+                  href="mailto:hello@createx.com?subject=Contact to CreatX"
+                  class="link"
+                  >hello@createx.com</a
+                >
+              </li>
+              <li class="row">
+                <span>Schedule:</span>
+                <p class="schedule">Mon - Fri 10:00 - 19:00</p>
+              </li>
+            </ul>
+          </div>
+          <div class="video-title">
+            <h3 class="common-title">Find us at</h3>
+            <a href="#" class="wa-contact"></a>
+            <a href="#" class="fm-contact"></a>
+            <a href="#" class="fb-contact"></a>
+            <a href="#" class="tw-contact"></a>
+            <a href="#" class="yt-contact"></a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer-wrapper">
+        <div class="footer-logo row">
+          <div class="footer-title">
+            <div class="footer-logo-wrapper">
+              <div class="footer-logo-create"></div>
+              <ul class="row">
+                <li><a href="#" class="wa"></a></li>
+                <li><a href="#" class="fm"></a></li>
+                <li><a href="#" class="fb"></a></li>
+                <li><a href="#" class="tw"></a></li>
+                <li><a href="#" class="yt"></a></li>
+              </ul>
+            </div>
+            <div class="footer-logo-text">
+              <p>
+                Createx Construction Bureau has been successfully operating
+                in the USA construction market since 2000. We are proud to offer
+                you quality construction and exemplary service. Our mission is
+                to set the highest standards for construction sphere.
+              </p>
+            </div>
+          </div>
+          <div class="footer-form">
+            <ul>
+              <li class="footer-title-form"><p>Let’s stay in touch</p></li>
+              <li class="row">
+                <input
+                  type="text"
+                  class="footer-long-form"
+                  placeholder="Your email address"
+                />
+                <button class="footer-orange-button">subscribe</button>
+              </li>
+              <li>
+                <p class="footer-text-form">
+                  *Subscribe to our newsletter to receive communications and
+                  early updates from Createx Construction Bureau.
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-contacts row">
+          <ul>
+            <li><p class="footer-title-contacts">HEAD OFFICE</p></li>
+            <li>
+              <a href="#" class="footer-contact"
+                >Address:8502 Preston Rd. Inglewood, New York</a
+              >
+            </li>
+            <li>
+              <a href="tel:(405) 555-0128" class="footer-contact"
+                >Call:(405) 555-0128</a
+              >
+            </li>
+            <li>
+              <a
+                href="mailto:hello@createx.com?subject=Contact to CreatX"
+                class="footer-contact"
+                >Email:hello@createx.com</a
+              >
+            </li>
+          </ul>
+          <ul>
+            <li><p class="footer-title-contacts">WHO WE ARE</p></li>
+            <li>
+              <a href="../pages/aboutus.html" class="footer-contact"
+                >About Us</a
+              >
+            </li>
+            <li><a href="#" class="footer-contact">Available Positions</a></li>
+            <li><a href="#" class="footer-contact">Contacts</a></li>
+          </ul>
+          <ul>
+            <li><p class="footer-title-contacts">OUR EXPERIENCE</p></li>
+            <li>
+              <a href="../pages/services.html" class="footer-contact"
+                >Services</a
+              >
+            </li>
+            <li>
+              <a href="../pages/work.html" class="footer-contact">Work</a>
+            </li>
+            <li>
+              <a href="../pages/news.html" class="footer-contact">News</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-rights row space-between">
+          <ul class="footer-heart row">
+            <li><p>© All rights reserved. Made with</p></li>
+            <li><div class="heart"></div></li>
+            <li><p>by Createx Studio</p></li>
+          </ul>
+          <ul class="footer-to-up row">
+            <li><p>GO TO TOP</p></li>
+            <a href="#header" class="rights-orange-button"></a>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
