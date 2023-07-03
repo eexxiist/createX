@@ -643,20 +643,20 @@
   .man-photo{
     margin-top: 0;
     width: 90vw;
-    height: 40vh;
+    height: 35vh;
     background-size: contain;
   }
 
   .man-title blockquote{
     width: 90vw;
-    /* height: 70vh; */
+    height: auto;
   }
 
   .man-title{
     padding-top: 20px;
     margin-left: 0;
     padding-bottom: 100px;
-    height: 67vh;
+    height: 60vh;
   }
 
   .man-title-text-1{
@@ -670,7 +670,7 @@
   .man-title-text-2{
     font-size: 16px;
     width: 90%;
-    padding-top: 50px;
+    padding-top: 0px;
     padding-left: 60px;
   }
 
@@ -710,12 +710,13 @@
  }
 
  .team__bottom{
+  padding-bottom: 20px;
   align-items: center;
   flex-direction: column;
  }
 
  .item{
-  width: 90vw;
+  /* width: 90vw; */
   height: 48vh;
  }
 
@@ -727,6 +728,7 @@
  }
 
  .post-team{
+  padding-bottom: 20px;
   flex-direction: column;
  }
 
@@ -734,7 +736,20 @@
   text-align: center;
  }
 
- .map{
+ .map-wrapper{
+  padding-top: 200px;
+  width: 100%;
+  height: 30vh;
+  background-size: contain;
+  background-image: url('/images/map-mobile.png');
+ }
+
+ .canada, .usa, .germany, .ukraine, .china, .australia{
   display: none;
+ }
+
+ .map{
+  padding-top: 50px;
+  height: 30vh;
  }
 }
