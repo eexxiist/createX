@@ -1,6 +1,7 @@
 /* --------------------- */
 
 .main__screen, .video, .values, .services, .icon-services-title, .building, .partners, .article{
+  margin: 0 auto;
   padding-bottom: 100px;
 }
 
@@ -81,7 +82,6 @@
 .main__screen {
   width: 100%;
   position: relative;
-  margin-top: 110px;
 }
 
 .title-head{
@@ -725,6 +725,7 @@ border-radius: 4px;
   }
 
   .main__screen_gallery{
+    padding-top: 100px;
     margin: 0;
   }
 

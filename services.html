@@ -62,27 +62,31 @@
     </header>
     <main class="main">
 
-      <div class="head-title">
-        <div class="hero row">
-          <a href="../index.html"> <span>Homepage</span> / Services </a>
-        </div>
-        <div class="hero-title">
-          <ul>
-            <li><h1>SERVICES</h1></li>
-            <li>
-              <p>
-                If you are looking for a full-service construction company,
+      <section class="services__title">
+        <div class="head-title">
+          <div class="contain_wrapper wrapper">
+            <div class="hero row">
+              <a href="../index.html"> <span>Homepage</span> / Services  </a>
+            </div>
+            <div class="hero-title">
+              <ul>
+                <li><h1>SERVICES</h1></li>
+                <li>
+                  <p>
+                    If you are looking for a full-service construction company,
                 look to Createx Construction Bureau. We are doing our best
                 to be a partner for all of your construction needs.
-              </p>
-            </li>
-          </ul>
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
-      </div>
+      </section>
 
-      <section class="services">
-        <div class="item image-wrapper row">
-          <div class="image-services-1"></div>
+      <section class="services wrapper">
+        <div class="item image-wrapper">
+          <div class="image_service image-services-1"></div>
           <div class="text-services-line">
             <div class="text-services">
               <ul>
@@ -107,7 +111,7 @@
             </div>
           </div>
         </div>
-        <div class="item image-wrapper row">
+        <div class="item item_reverse image-wrapper">
           <div class="text-services">
             <ul>
               <li>
@@ -128,10 +132,10 @@
               </li>
             </ul>
           </div>
-          <div class="image-services-2"></div>
+          <div class="image_service image-services-2"></div>
         </div>
-        <div class="item image-wrapper row">
-          <div class="image-services-3"></div>
+        <div class="item image-wrapper">
+          <div class="image_service image-services-3"></div>
           <div class="text-services-line">
             <div class="text-services">
               <ul>
@@ -157,7 +161,7 @@
             </div>
           </div>
         </div>
-        <div class="item image-wrapper row">
+        <div class="item item_reverse bottom image-wrapper">
           <div class="text-services">
             <ul>
               <li>
@@ -177,50 +181,54 @@
               </li>
             </ul>
           </div>
-          <div class="image-services-4"></div>
+          <div class="image_service image-services-4"></div>
         </div>
       </section>
       <section class="common-pre-footer">
-        <form class="form-data" action="/action_page.php" method="post">
+        <form class="form-data" action="https://formspree.io/f/myyvvdgr" method="post">
           <p class="common-title-form">A quick way to discuss details</p>
-          <p class="common-form-contacts">Name*</p>
-          <input class="form-title" type="text" placeholder="Your name" />
-          <p class="common-form-contacts">Phone*</p>
-          <input
-            class="form-title"
-            type="tel"
-            placeholder="Your phone number"
-          />
-          <p class="common-form-contacts">Email*</p>
-          <input
-            class="form-title"
-            type="text"
-            placeholder="Your working email"
-          />
+          <div class="common-form-name">
+            <p class="common-form-contacts">Name*</p>
+            <input class="form-title" type="text" name="Name:" id="Name:" placeholder="Your name" pattern="[A-Za-zА-Яа-яЁё]+" required/>
+          </div>
+          <div class="common-form-phone">
+            <p class="common-form-contacts">Phone*</p>
+            <input class="form-title" id="phone" type="tel" name="phone:" minlength="16" placeholder="Your phone number" required/>
+          </div>
+          <div class="common-form-email">
+            <p class="common-form-contacts">Email*</p>
+            <input
+              class="form-title"
+              type="email" pattern="[a-zA-Z0-9._%+-]+@[a-z0-9.-]+\.[a-zA-Z]{2,4}"
+              placeholder="Your working email" required
+            />
+          </div>
+         <div class="common-form-message">
           <p class="common-form-contacts">Message*</p>
           <textarea name="textarea" placeholder="Your message"></textarea>
-          <input
+         </div>
+          <div class="check-box">
+            <input
             class="checkbox-pre-footer"
             type="checkbox"
             id="contact_2"
             name="subribe"
             value="newsletter"
           />
-          <label for="contact_2"
-            >I agree to receive communications from Createx
-            ConstructionBureau.</label
-          >
-          <input class="submit" type="submit" value="send request" />
+            <label class="contact_2" for="contact_2">I agree to receive communications from Createx
+            Construction Bureau.</label>
+          </div>
+          <button class="submit"><input type="submit" value="send request"/></button>
         </form>
       </section>
     </main>
     <footer class="footer">
-      <div class="footer-wrapper">
-        <div class="footer-logo row">
+      <div class="wrapper">
+        <div class="footer-logo">
           <div class="footer-title">
             <div class="footer-logo-wrapper">
               <div class="footer-logo-create"></div>
-              <ul class="row">
+              <ul class="footer_social">
                 <li><a href="#" class="wa"></a></li>
                 <li><a href="#" class="fm"></a></li>
                 <li><a href="#" class="fb"></a></li>
@@ -240,13 +248,15 @@
           <div class="footer-form">
             <ul>
               <li class="footer-title-form"><p>Let’s stay in touch</p></li>
-              <li class="row">
-                <input
-                  type="text"
-                  class="footer-long-form"
-                  placeholder="Your email address"
-                />
+              <li>
+                <form action="https://formspree.io/f/myyvvdgr" method="post" class="footer-form-mail">
+                  <input
+          class="footer-long-form" name="email:"
+          type="email" pattern="[a-zA-Z0-9._%+-]+@[a-z0-9.-]+\.[a-zA-Z]{2,4}"
+          placeholder="Your email address" required
+                  />
                 <button class="footer-orange-button">subscribe</button>
+                </form>
               </li>
               <li>
                 <p class="footer-text-form">
@@ -257,24 +267,24 @@
             </ul>
           </div>
         </div>
-        <div class="footer-contacts row">
+        <div class="footer-contacts">
           <ul>
             <li><p class="footer-title-contacts">HEAD OFFICE</p></li>
             <li>
               <a href="#" class="footer-contact"
-                >Address:8502 Preston Rd. Inglewood, New York</a
+                ><span>Address:</span> 8502 Preston Rd. Inglewood, New York</a
               >
             </li>
             <li>
               <a href="tel:(405) 555-0128" class="footer-contact"
-                >Call:(405) 555-0128</a
+                ><span>Call:</span>(405) 555-0128</a
               >
             </li>
             <li>
               <a
                 href="mailto:hello@createx.com?subject=Contact to CreatX"
                 class="footer-contact"
-                >Email:hello@createx.com</a
+                ><span>Email:</span> hello@createx.com</a
               >
             </li>
           </ul>
@@ -303,18 +313,22 @@
             </li>
           </ul>
         </div>
-        <div class="footer-rights row space-between">
-          <ul class="footer-heart row">
-            <li><p>© All rights reserved. Made with</p></li>
-            <li><div class="heart"></div></li>
-            <li><p>by Createx Studio</p></li>
-          </ul>
+        <div class="footer-rights">
+          <div class="footer_right_text">
+            <p>© All rights reserved.</p>
+            <div class="footer_right_heart">
+              <p>Made with</p>
+              <div class="heart"></div>
+              <p>by Createx Studio</p>
+            </div>
+          </div>
           <ul class="footer-to-up row">
             <li><p>GO TO TOP</p></li>
-            <a href="#header" class="rights-orange-button"></a>
+            <a href="#main" class="rights-orange-button"></a>
           </ul>
         </div>
       </div>
     </footer>
+  
   </body>
 </html>

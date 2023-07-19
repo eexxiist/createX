@@ -641,7 +641,7 @@
   .man-photo{
     margin-top: 0;
     width: 90vw;
-    height: 35vh;
+    height: 50vh;
     background-size: contain;
   }
 
@@ -714,7 +714,7 @@
  }
 
  .item{
-  /* width: 90vw; */
+  width: 65vw;
   height: 48vh;
  }
 

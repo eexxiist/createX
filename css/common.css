@@ -110,7 +110,7 @@ select {
 .wrapper{
   padding: 0px 10px;
   position: relative;
-  /* margin: 0 auto; */
+  margin: 0 auto;
   max-width: 1230px;
 }
 
@@ -387,7 +387,7 @@ transform: translateY(9px) rotate(45deg)
 .head-title {
   margin: 0 auto;
   padding: 0;
-  padding-top: 82px;
+  padding-top: 182px;
   /* width: 1357px; */
   font-family: "Ubuntu", sans-serif;
   font-style: normal;
