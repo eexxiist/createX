@@ -1,4 +1,4 @@
-.head-wrapper {
+.work__title {
   margin: 0;
   padding: 0;
   width: 100%;
@@ -10,10 +10,9 @@
 }
 
 .icons-services {
-  margin: 0 auto;
-  margin-top: 180px;
-  width: 1230px;
-  height: 154px;
+  margin-top: -170px;
+  width: 100%;
+  height: 15vh;
 }
 
 .icon0 {

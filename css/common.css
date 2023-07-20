@@ -446,6 +446,7 @@ transform: translateY(9px) rotate(45deg)
 }
 
 .hero-title p {
+  width: 80%;
   padding-top: 24px;
   font-weight: 400;
   font-size: 20px;
