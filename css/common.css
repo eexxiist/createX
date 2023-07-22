@@ -132,6 +132,7 @@ select {
   width: 100%; 
   visibility: hidden;
   margin: 0 auto 30px;
+  padding-bottom: 50px;
 }
 
 .slider { 
