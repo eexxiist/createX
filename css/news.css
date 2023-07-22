@@ -1,9 +1,9 @@
-.head-wrapper {
+.news__title {
   margin: 0;
   padding: 0;
-  width: 100%;
-  height: 600px;
-  background-image: url("../images/background-news.png");
+  max-width: 100%;
+  height: 70vh;
+  background-image: url("../images/background-news.jpg");
   background-size: cover;
   font-family: "Ubuntu", sans-serif;
   font-style: normal;
@@ -13,7 +13,7 @@
   margin: 0;
   padding: 0;
   width: 100%;
-  height: 2158px;
+  /* height: 2158px; */
   font-family: "Ubuntu", sans-serif;
   font-style: normal;
 }
@@ -21,11 +21,11 @@
 .article-news-wrapper {
   position: relative;
   margin: 0 auto;
-  width: 1230px;
+  /* width: 1230px; */
 }
 
 .facts {
-  padding-top: 120px;
+  padding-top: 70px;
 }
 .news-link {
   padding-top: 50px;
@@ -59,7 +59,7 @@
 }
 
 .article {
-  position: absolute;
+  /* position: absolute; */
   left: 0px;
   top: 0px;
   right: 0;
@@ -81,7 +81,12 @@
 
 .article:hover .common-article-title {
   color: #ff5a30;
-  transform: scale(1.1);
+  transform: scale(1.05);
+}
+
+.articles_row_1, .articles_row_2, .articles_row_3{
+  display: flex;
+  padding-top: 50px;
 }
 
 .article-1 {
@@ -110,45 +115,44 @@
 }
 
 .article-image-1 {
-  width: 600px;
-  height: 306px;
-  background-image: url("../images/article-image-1.png");
+  max-width: 100%;
+  height: 32vh;
+  background-image: url("../images/article-image-1.jpg");
   block-size: cover;
 }
 .article-image-2 {
-  width: 600px;
-  height: 306px;
-  background-image: url("../images/article-news-2.png");
+  max-width: 100%;
+  height: 32vh;
+  background-image: url("../images/article-news-2.jpg");
   block-size: cover;
 }
 .article-image-3 {
-  width: 600px;
-  height: 306px;
-  background-image: url("../images/article-news-3.png");
+  max-width: 100%;
+  height: 32vh;
+  background-image: url("../images/article-news-33.jpg");
   block-size: cover;
 }
 .article-image-4 {
-  width: 600px;
-  height: 306px;
-  background-image: url("../images/article-news-4.png");
+  max-width: 100%;
+  height: 32vh;
+  background-image: url("../images/article-news-4.jpg");
   block-size: cover;
 }
 .article-image-5 {
-  width: 600px;
-  height: 306px;
-  background-image: url("../images/article-news-5.png");
+  max-width: 100%;
+  height: 32vh;
+  background-image: url("../images/article-news-5.jpg");
   block-size: cover;
 }
 .article-image-6 {
-  width: 600px;
-  height: 306px;
-  background-image: url("../images/article-news-6.png");
+  max-width: 100%;
+  height: 32vh;
+  background-image: url("../images/article-news-6.jpg");
   block-size: cover;
 }
 
 .article-wrapper {
-  width: 600px;
-  height: 176px;
+  width: 100%;
   padding-top: 24px;
   background: white;
 }
@@ -209,7 +213,6 @@
 .common-article-text {
   margin-top: 16px;
   margin-left: 24px;
-  width: 600px;
   font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -218,47 +221,55 @@
   color: #424551;
 }
 
-.news-pages {
-  padding-top: 1700px;
-  margin: 0 auto;
-  width: 140px;
-}
 
-.news-pages ul {
-  padding: 0;
-  list-style-type: none;
-}
+@media (max-width: 770px){
 
-.news-pages li + li {
-  padding-left: 20px;
-}
+  .article-news-wrapper{
+    padding-bottom: 100px;
+  }
 
-.news-pages a {
-  text-decoration: none;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 160%;
-  color: #424551;
-  transition: all 0.5s ease-in;
-}
+  .news__title{
+    width: 100%;
+    height: 60vh;
+  }
 
-.news-pages a:hover {
-  color: #ff5a30;
-}
+  .facts, .news-link{
+    display: none;
+  }
 
-.vector-pages {
-  display: block;
-  content: "";
-  width: 18px;
-  height: 11px;
-  left: 0px;
-  margin-top: 6px;
-  right: 0px;
-  bottom: 0px;
-  background-image: url("../images/vector-pages.svg");
-  transition: all 0.5s ease-in;
-}
+  .articles_row_1, .articles_row_2, .articles_row_3{
+    flex-direction: column;
+    padding-top: 0px;
+  }
 
-.vector-pages:hover {
-  transform: scale(1.2);
+  .article-1, .article-2, .article-3, .article-4, .article-5, .article-6{
+    left: 0;
+    top: 0;
+  }
+
+  .article{
+    padding-top: 30px;
+    max-width: 100%;
+    height: 60vh;
+  }
+
+  .common-article-title{
+    font-size: 16px;
+    padding: 0;
+  }
+
+  .common-article-text{
+    margin-left: 0px;
+  }
+
+  .article-wrapper{
+    padding: 20px 20px 20px 20px;
+  }
+
+  .date{
+    padding: 0;
+    padding-top: 10px;
+  }
+
+
 }
