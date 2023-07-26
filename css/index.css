@@ -208,9 +208,9 @@
 .form-services-long {
   position: absolute;
   display: flex;
-  width: 90%;
+  width: 95%;
   top: 105px;
-  left: 60px;
+  left: 20px;
 }
 
 .form-services-long-name input, .form-services-long-phone input, .form-services-long-message input{
@@ -719,14 +719,28 @@ border-radius: 4px;
     padding-bottom: 50px;
   }
 
+  .main{
+    margin-top: 100px;
+  }
+
   .main__screen{
-    padding: 0;
     margin: 0;
+    width: 100%;
+    height: 30vh;
+    background-image: url('../images/background-main-mobile.jpg');
+    background-size: contain;
   }
 
   .main__screen_gallery{
-    padding-top: 100px;
-    margin: 0;
+    display: none;
+  }
+
+  .gallery{
+    /* display: none; */
+  }
+
+  .main_control{
+    display: none;
   }
 
   .stage > div img{
@@ -789,14 +803,12 @@ border-radius: 4px;
     position: relative;
     width: 95%;
     min-height: 64vh;
-    /* top: 50%;
-    left: 50%; */
     transform:translate(2%, 0%);
   }
 
   .form-services-long-name, .form-services-long-phone, .form-services-long-message{
     padding-left: 0;
-    width: 80%;
+    width: 100%;
   }
 
   .form-services-long-phone, .form-services-long-message{
@@ -805,7 +817,7 @@ border-radius: 4px;
 
   .submit-service{
     padding-bottom: 40px;
-    width: 80%;
+    width: 100%;
     height: 6vh;
     margin-top: 20px;
     margin-left: 0;
@@ -818,6 +830,7 @@ border-radius: 4px;
 
   .form-services-long{
     flex-direction: column;
+    left: 0;
   }
 
   .services-title{

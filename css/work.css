@@ -251,8 +251,10 @@
 @media (max-width: 770px){
 
   .work__title{
-    background-size: auto;
-    height: 70vh;
+    margin-top: 10px;
+    height: 50vh;
+    background-image: url('../images/backgroun-work-mobile.jpg');
+    background-size: 100% 100%;
   }
 
   .icons-services{

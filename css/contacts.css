@@ -300,6 +300,7 @@
 .video-title {
   position: relative;
   padding-top: 100px;
+  padding-bottom: 70px;
 }
 
 .social_media{
@@ -370,7 +371,10 @@
 @media (max-width: 770px){
 
   .contacts__title{
-    height: 60vh;
+    margin-top: 10px;
+    height: 50vh;
+    background-image: url('../images/background-contacts-mobile.jpg');
+    background-size: 100% 100%;
   }
 
   .video-title{
@@ -378,16 +382,18 @@
   }
 
   .contact-title{
+    padding: 0;
     flex-direction: column;
   }
 
   .contact-image{
     margin: 0 auto;
-    width: 100vw;
-    height: 40vh;
+    width: 100%;
+    height: 50vh;
   }
 
   .form-contacts{
+    padding-top: 30px;
     padding-left: 0;
   }
 
