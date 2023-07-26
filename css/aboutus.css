@@ -127,7 +127,7 @@
   display: flex;
   margin: 0 auto;
   width: 1230px;
-  /* height: 700px; */
+  padding-bottom: 50px;
 }
 
 .man-photo {
@@ -332,6 +332,10 @@
 .title-partners{
   padding-top: 50px;
   padding-bottom: 39px;
+}
+
+.team-about{
+  padding-bottom: 50px;
 }
 
 

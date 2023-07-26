@@ -33,12 +33,10 @@
 }
 
 .news-link ul {
+  display: flex;
+  justify-content: space-between;
   padding: 0;
   list-style-type: none;
-}
-
-.news-link li + li {
-  margin-left: 18px;
 }
 
 .news-link a {
