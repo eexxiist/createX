@@ -87,7 +87,7 @@
 .title-head{
   padding: 0px 20px;
   position: absolute;
-  top: 10%;
+  top: 20%;
   left: 26%;
 }
 
@@ -555,8 +555,8 @@
   color: #1e212c;
 }
 
-.facts {
-  padding-top: 165px;
+.facts_circle {
+  padding-top: 160px;
 }
 
 .article-grid {
