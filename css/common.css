@@ -766,9 +766,9 @@ transform: translateY(9px) rotate(45deg)
 .common-pre-footer {
   position: relative;
   width: 100%;
-  min-height: 80vh;
+  height: 76vh;
   background-image: url("../images/pre-footer.jpg");
-  background-size: contain;
+  background-size: cover;
   background-attachment: fixed;
 }
 
@@ -1582,7 +1582,7 @@ transform: translateY(9px) rotate(45deg)
   /* ---------- */
 
   .form-data{
-    min-height: 95vh;
+    min-height: 82vh;
     padding-bottom: 40px;
     width: 100%;
     top: 0;
