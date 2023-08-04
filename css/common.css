@@ -766,9 +766,9 @@ transform: translateY(9px) rotate(45deg)
 .common-pre-footer {
   position: relative;
   width: 100%;
-  height: 100vh;
+  height: 76vh;
   background-image: url("../images/pre-footer.jpg");
-  background-size: content;
+  background-size: contain;
   background-attachment: fixed;
 }
 
@@ -1465,7 +1465,6 @@ transform: translateY(9px) rotate(45deg)
 
   .m-title-map{
     font-size: 25px;
-    padding-bottom: 47px;
   }
 
   /* ------------ */
@@ -1486,6 +1485,10 @@ transform: translateY(9px) rotate(45deg)
   }
 
   /* -------- */
+
+  .icons-partners{
+    padding-top: 50px;
+  }
 
   .clients-wrapper h3{
     font-size: 30px;
@@ -1579,7 +1582,7 @@ transform: translateY(9px) rotate(45deg)
   /* ---------- */
 
   .form-data{
-    min-height: 100vh;
+    min-height: 82vh;
     padding-bottom: 40px;
     width: 100%;
     top: 0;
