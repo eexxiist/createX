@@ -944,6 +944,10 @@ border-radius: 4px;
     padding-top: 0;
   }
 
+  .facts_circle{
+    padding-top: 20px;
+  }
+
   .circle-facts_stage > div img{
     height: 20vh;
     margin: 0 auto;
