@@ -775,7 +775,7 @@ transform: translateY(9px) rotate(45deg)
 .form-data {
   position: absolute;
   width: 25%;
-  height: 100%;
+  height: 70vh;
   left: 20%;
   top: 5%;
   right: 0;
@@ -1281,7 +1281,7 @@ transform: translateY(9px) rotate(45deg)
   background-image: url("../images/vector-pages.svg");
 }
 
-@media (max-width: 770px){
+@media only screen and (max-width : 770px){
 
   .wrapper{
     padding: 0px 20px;
@@ -1642,8 +1642,35 @@ transform: translateY(9px) rotate(45deg)
 
 }
 
-@media (max-width: 320px){
+
+@media only screen and (max-width : 600px)  {
   .form-data{
+    min-height: 84vh;
+  }
+}
+@media only screen and (max-width : 533px)  {
+  .form-data{
+    min-height: 84vh;
+  }
+}
+@media only screen and (max-width : 360px)  {
+  .form-data{
+    min-height: 84vh;
+  }
+}
+@media only screen and (max-width : 320px)  {
+  .form-data{
+    min-height: 84vh;
+  }
+}
+@media only screen and (max-width : 240px)  {
+
+}
+
+
+/* @media (max-width: 320px){
+  .form-data{
+    position: relative;
     min-height: 80vh;
   }
 }
@@ -1664,4 +1691,4 @@ transform: translateY(9px) rotate(45deg)
   .form-data{
     min-height: 80vh;
   }
-}
+} */
