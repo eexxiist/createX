@@ -1655,40 +1655,11 @@ transform: translateY(9px) rotate(45deg)
 }
 @media only screen and (max-width : 360px)  {
   .form-data{
-    min-height: 84vh;
+    min-height: 90vh;
   }
 }
 @media only screen and (max-width : 320px)  {
   .form-data{
-    min-height: 84vh;
+    min-height: 100vh;
   }
 }
-@media only screen and (max-width : 240px)  {
-
-}
-
-
-/* @media (max-width: 320px){
-  .form-data{
-    position: relative;
-    min-height: 80vh;
-  }
-}
-
-@media (max-width: 360px){
-  .form-data{
-    min-height: 80vh;
-  }
-}
-
-@media (max-width: 375px){
-  .form-data{
-    min-height: 76vh;
-  }
-}
-
-@media (max-width: 414px){
-  .form-data{
-    min-height: 80vh;
-  }
-} */
