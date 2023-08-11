@@ -767,7 +767,7 @@ transform: translateY(9px) rotate(45deg)
   position: relative;
   width: 100%;
   height: 76vh;
-  background-image: url("../images/pre-footer.jpg");
+  background-image: url("/images/pre-footer.jpg");
   background-size: cover;
   background-attachment: fixed;
 }
@@ -1640,4 +1640,22 @@ transform: translateY(9px) rotate(45deg)
   font-size: 14px;
 }
 
+}
+
+@media (max-width: 320px){
+  .form-data{
+    min-height: 80vh;
+  }
+}
+
+@media (max-width: 375px){
+  .form-data{
+    min-height: 76vh;
+  }
+}
+
+@media (max-width: 414px){
+  .form-data{
+    min-height: 80vh;
+  }
 }
