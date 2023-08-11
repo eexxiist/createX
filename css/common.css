@@ -1648,6 +1648,12 @@ transform: translateY(9px) rotate(45deg)
   }
 }
 
+@media (max-width: 360px){
+  .form-data{
+    min-height: 80vh;
+  }
+}
+
 @media (max-width: 375px){
   .form-data{
     min-height: 76vh;
